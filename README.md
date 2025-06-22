@@ -22,7 +22,8 @@ Interactive platform for astronomy learning.
 - Quests
 - Shop
 - Leaderboard
-- Astronomy lessons
+- Astronomy lessons and quizzes
+- Progress tracking
 
 ## Contributing
 We welcome contributions! Please see the CONTRIBUTING.md for guidelines.
