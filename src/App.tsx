@@ -16,7 +16,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/starwise' : '/'}>
+        <BrowserRouter basename="/starwise">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/auth/callback" element={<AuthCallback />} />
