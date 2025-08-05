@@ -62,6 +62,26 @@ This project is built with:
 
 ## How can I deploy this project?
 
+### Option 1: Deploy to GitHub Pages (Recommended)
+
+This project is configured for automatic deployment to GitHub Pages. Here's how to set it up:
+
+1. **Push your code to GitHub** (if not already done)
+2. **Enable GitHub Pages**:
+   - Go to your repository on GitHub
+   - Navigate to Settings → Pages
+   - Under "Source", select "GitHub Actions"
+   - The deployment will happen automatically when you push to the main branch
+
+3. **Manual deployment** (if needed):
+   ```sh
+   npm run deploy
+   ```
+
+Your app will be available at: `https://yourusername.github.io/starwise/`
+
+### Option 2: Deploy via Lovable
+
 Simply open [Lovable](https://lovable.dev/projects/1148d613-fe91-4596-8185-024f5b371d4f) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
